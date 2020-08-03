@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
     <title>Kaufmann</title>
 </head>
+
 <body>
-    
+    <header id="header" class="header">
+        <div class="logo">
+            <img src="img/logo.png" id="logo">
+        </div>
+        <div class="carrito-compras">
+            <img src="img/cart.png" class="img-carrito">
+            <div class="contenido" class="oculto">
+                <table id="lista-carrito" class="">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="./img/F.jpg">
+                            </td>
+                            <td>2 X Parasol Protector Solar Auto Suv Camioneta Con Filtro Uv</td>
+                            <td>$15</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#" class="boton">Vaciar Carrito</a>
+            </div>
+            <!--#carrito-->
+        </div>
+        <!--.carrito-->
+    </header>
+
+
+
+    <div class="hero">
+        <div class="contenido-hero contenedor">
+            <h2>Gran variedad de repuesto</h2>
+            <p>Compra con profesionales</p>
+            <form action="#" id="busqueda" method="GET" class="formulario">
+                <input class="" type="text" placeholder="Encuentra nuestros productos" id="buscador">
+                <input type="submit" id="submit-buscador" class="submit-buscador">
+            </form>
+        </div>
+    </div>
+    <!--#hero-->
+
+    <div class="barra">
+        <div class="iconos contenedor">
+            <div class="icono icono1">
+                <p>77.968 Repuestos en línea <br>
+                    Explora los más recientes</p>
+            </div>
+            <div class="icono icono2">
+                <p>Gran variedad de repuesto <br>
+                    de la mejor calidad</p>
+            </div>
+            <div class="icono icono3">
+                <p> Los mejores Repuestos<br>
+                    A solo un click</p>
+            </div>
+        </div>
+        <div class="filtros contenedor">
+            <select name="filter" id="filter">
+                <option value="$ filtro de aire">Filtros de Aire</option>
+                <option value="$ filtro de aceite">Filtros de Aceite</option>
+                <option value="$ filtro de polen">Filtros de Polen</option>
+                <option value="$ filtro de bencina">Filtros de Bencina</option>
+                <option value="$ kits de filtros">Kits de Filtros</option>
+                <option value="$ portafiltros">Portafiltros</option>
+                <option value="$ filtro hidraulicos">Filtros Hidraulicos</option>
+                <option value="$ otros filtros">Otros Filtros</option>
+            </select>
+        </div>
+    </div>
+
+    <h1 class="encabezado centrado">Nuestrso Productos</h1>
+    <main class="repuestos contenedor" id="filterList"></main>
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+            <div class="contenedor-footer">
+                <div>
+                    <img src="img/logo.png" id="logo">
+                </div>
+                <nav id="principal" class="menu">
+                    <a class="enlace" href="#">Para tu Negocio</a>
+                    <a class="enlace" href="#">Soporte</a>
+                    <a class="enlace" href="#">Temas</a>
+                </nav>
+                <nav id="secundaria" class="menu">
+                    <a class="enlace" href="#">¿Quienes Somos?</a>
+                    <a class="enlace" href="#">Empleo</a>
+                    <a class="enlace" href="#">Blog</a>
+                </nav>
+            </div>
+            <!--.contenedor-footer-->
+        </div>
+        <!--.contenedor-->
+
+        <div class="foo contenedor">
+            <p>
+                &copy; Copyright 2020 Kaufmann Repuestos - Repuestos y Accesorios para el Automóvil. Todos los derechos
+                reservados. <strong> <span>Hecho por Maria Jose Gomez</span></strong></p>
+        </div>
+
+
+
+
+
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/f53972c479.js" crossorigin="anonymous"></script>
+    </head>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
