@@ -11,7 +11,7 @@
 <body>
     <header id="header" class="header">
         <div class="logo">
-            <img src="img/logo.png" id="logo">
+            <a id="return" href=""> <img src="img/logo.png" id="logo"></a>
         </div>
         <div class="carrito-compras">
             <img src="img/cart.png" class="img-carrito">
@@ -69,19 +69,24 @@
                 <p> Los mejores Repuestos<br>
                     A solo un click</p>
             </div>
+            <div contenedor">
+                <div class="select">
+                    <select  name="filter" id="filter">
+                        <option value="">CATEGORIAS</option>
+                        <option value="$ filtro de aire">Filtros de Aire</option>
+                        <option value="$ filtro de aceite">Filtros de Aceite</option>
+                        <option value="$ filtro de polen">Filtros de Polen</option>
+                        <option value="$ filtro de bencina">Filtros de Bencina</option>
+                        <option value="$ kits de filtros">Kits de Filtros</option>
+                        <option value="$ portafiltros">Portafiltros</option>
+                        <option value="$ filtro hidraulicos">Filtros Hidraulicos</option>
+                        <option value="$ otros filtros">Otros Filtros</option>
+                    </select>
+                </div>
+               
+            </div>
         </div>
-        <div class="filtros contenedor">
-            <select name="filter" id="filter">
-                <option value="$ filtro de aire">Filtros de Aire</option>
-                <option value="$ filtro de aceite">Filtros de Aceite</option>
-                <option value="$ filtro de polen">Filtros de Polen</option>
-                <option value="$ filtro de bencina">Filtros de Bencina</option>
-                <option value="$ kits de filtros">Kits de Filtros</option>
-                <option value="$ portafiltros">Portafiltros</option>
-                <option value="$ filtro hidraulicos">Filtros Hidraulicos</option>
-                <option value="$ otros filtros">Otros Filtros</option>
-            </select>
-        </div>
+      
     </div>
 
     <h1 class="encabezado centrado">Nuestrso Productos</h1>
